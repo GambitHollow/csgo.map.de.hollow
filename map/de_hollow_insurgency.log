@@ -4634,3 +4634,377 @@ Total triangle count: 2802
 Writing c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
 MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp', but we don't own that location. Allowing...
 52 seconds elapsed
+
+
+
+materialPath: C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.vmf
+Map revision 236
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 66 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93006 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 10
+Reduced 6 texdatas to 6 (126 bytes to 126)
+Writing C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+No vis information, direct lighting only.
+1025 faces
+1 degenerate faces
+751433 square feet [108206352.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+98 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0029 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                244/8192         2928/98304    ( 3.0%) 
+brushsides            1603/81920       12824/655360   ( 2.0%) 
+planes                 682/65536       13640/1310720  ( 1.0%) 
+vertexes              1784/65536       21408/786432   ( 2.7%) 
+nodes                  772/65536       24704/2097152  ( 1.2%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1025/65536       57400/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              587/65536       32872/3670016  ( 0.9%) 
+facebrushes            234/0             468/0        ( 0.0%) 
+facebrushlists        1025/0            4100/0        ( 0.0%) 
+leaves                 777/65536       24864/2097152  ( 1.2%) 
+leaffaces             1188/65536        2376/131072   ( 1.8%) 
+leafbrushes            612/65536        1224/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7232/512000      28928/2048000  ( 1.4%) 
+edges                 4441/256000      17764/1024000  ( 1.7%) 
+LDR worldlights         98/8192         9800/819200   ( 1.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             94/32768         940/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1473/65536        2946/131072   ( 2.2%) 
+cubemapsamples          90/1024         1440/16384    ( 8.8%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      586400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       19241/393216   ( 4.9%) 
+LDR ambient table      777/65536        3108/262144   ( 1.2%) 
+HDR ambient table      777/65536        3108/262144   ( 1.2%) 
+LDR leaf ambient      4885/65536      136780/1835008  ( 7.5%) 
+HDR leaf ambient       777/65536       21756/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3936     ( 0.0%) 
+pakfile               [variable]     7218066/0        ( 0.0%) 
+physics               [variable]       93006/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2829
+Writing c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp', but we don't own that location. Allowing...
+56 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+No vis information, direct lighting only.
+1025 faces
+1 degenerate faces
+751433 square feet [108206352.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+98 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                244/8192         2928/98304    ( 3.0%) 
+brushsides            1603/81920       12824/655360   ( 2.0%) 
+planes                 682/65536       13640/1310720  ( 1.0%) 
+vertexes              1784/65536       21408/786432   ( 2.7%) 
+nodes                  772/65536       24704/2097152  ( 1.2%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1025/65536       57400/3670016  ( 1.6%) 
+hdr faces             1025/65536       57400/3670016  ( 1.6%) 
+origfaces              587/65536       32872/3670016  ( 0.9%) 
+facebrushes            234/0             468/0        ( 0.0%) 
+facebrushlists        1025/0            4100/0        ( 0.0%) 
+leaves                 777/65536       24864/2097152  ( 1.2%) 
+leaffaces             1188/65536        2376/131072   ( 1.8%) 
+leafbrushes            612/65536        1224/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7232/512000      28928/2048000  ( 1.4%) 
+edges                 4441/256000      17764/1024000  ( 1.7%) 
+LDR worldlights         98/8192         9800/819200   ( 1.2%) 
+HDR worldlights         98/8192         9800/819200   ( 1.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             94/32768         940/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1473/65536        2946/131072   ( 2.2%) 
+cubemapsamples          90/1024         1440/16384    ( 8.8%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      586400/0        ( 0.0%) 
+HDR lightdata         [variable]      586400/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       19241/393216   ( 4.9%) 
+LDR ambient table      777/65536        3108/262144   ( 1.2%) 
+HDR ambient table      777/65536        3108/262144   ( 1.2%) 
+LDR leaf ambient      4885/65536      136780/1835008  ( 7.5%) 
+HDR leaf ambient      5051/65536      141428/1835008  ( 7.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3936     ( 0.0%) 
+pakfile               [variable]     7662654/0        ( 0.0%) 
+physics               [variable]       93006/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2829
+Writing c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp', but we don't own that location. Allowing...
+56 seconds elapsed
+
+
+
+materialPath: C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.vmf
+Map revision 255
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 74 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.prt...Building visibility clusters...
+AutoVisClustering (threshold=-1) matched 0 leafs.
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93006 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 10
+Reduced 6 texdatas to 6 (126 bytes to 126)
+Writing C:\Program Files\Steam\steamapps\common\Counter-Strike Global Offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp', but we don't own that location. Allowing...
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+No vis information, direct lighting only.
+1023 faces
+751433 square feet [108206352.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+98 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                244/8192         2928/98304    ( 3.0%) 
+brushsides            1603/81920       12824/655360   ( 2.0%) 
+planes                 682/65536       13640/1310720  ( 1.0%) 
+vertexes              1782/65536       21384/786432   ( 2.7%) 
+nodes                  772/65536       24704/2097152  ( 1.2%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1023/65536       57288/3670016  ( 1.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              587/65536       32872/3670016  ( 0.9%) 
+facebrushes            234/0             468/0        ( 0.0%) 
+facebrushlists        1023/0            4092/0        ( 0.0%) 
+leaves                 777/65536       24864/2097152  ( 1.2%) 
+leaffaces             1184/65536        2368/131072   ( 1.8%) 
+leafbrushes            612/65536        1224/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7222/512000      28888/2048000  ( 1.4%) 
+edges                 4434/256000      17736/1024000  ( 1.7%) 
+LDR worldlights         98/8192         9800/819200   ( 1.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             92/32768         920/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1455/65536        2910/131072   ( 2.2%) 
+cubemapsamples         183/1024         2928/16384    (17.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      586156/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       19241/393216   ( 4.9%) 
+LDR ambient table      777/65536        3108/262144   ( 1.2%) 
+HDR ambient table      777/65536        3108/262144   ( 1.2%) 
+LDR leaf ambient      4883/65536      136724/1835008  ( 7.5%) 
+HDR leaf ambient       777/65536       21756/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3936     ( 0.0%) 
+pakfile               [variable]    14140902/0        ( 0.0%) 
+physics               [variable]       93006/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7d
+
+Total triangle count: 2823
+Writing c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp', but we don't own that location. Allowing...
+53 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[40 texlights parsed from 'lights.rad']
+
+Loading c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+No vis information, direct lighting only.
+1023 faces
+751433 square feet [108206352.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+98 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0031 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes                244/8192         2928/98304    ( 3.0%) 
+brushsides            1603/81920       12824/655360   ( 2.0%) 
+planes                 682/65536       13640/1310720  ( 1.0%) 
+vertexes              1782/65536       21384/786432   ( 2.7%) 
+nodes                  772/65536       24704/2097152  ( 1.2%) 
+texinfos                10/12288         720/884736   ( 0.1%) 
+texdata                  6/4096          192/131072   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1023/65536       57288/3670016  ( 1.6%) 
+hdr faces             1023/65536       57288/3670016  ( 1.6%) 
+origfaces              587/65536       32872/3670016  ( 0.9%) 
+facebrushes            234/0             468/0        ( 0.0%) 
+facebrushlists        1023/0            4092/0        ( 0.0%) 
+leaves                 777/65536       24864/2097152  ( 1.2%) 
+leaffaces             1184/65536        2368/131072   ( 1.8%) 
+leafbrushes            612/65536        1224/131072   ( 0.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             7222/512000      28888/2048000  ( 1.4%) 
+edges                 4434/256000      17736/1024000  ( 1.7%) 
+LDR worldlights         98/8192         9800/819200   ( 1.2%) 
+HDR worldlights         98/8192         9800/819200   ( 1.2%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             92/32768         920/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1455/65536        2910/131072   ( 2.2%) 
+cubemapsamples         183/1024         2928/16384    (17.9%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      586156/0        ( 0.0%) 
+HDR lightdata         [variable]      586156/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       19241/393216   ( 4.9%) 
+LDR ambient table      777/65536        3108/262144   ( 1.2%) 
+HDR ambient table      777/65536        3108/262144   ( 1.2%) 
+LDR leaf ambient      4883/65536      136724/1835008  ( 7.5%) 
+HDR leaf ambient      5051/65536      141428/1835008  ( 7.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/3936     ( 0.0%) 
+pakfile               [variable]    14585490/0        ( 0.0%) 
+physics               [variable]       93006/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7f
+
+Total triangle count: 2823
+Writing c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp
+MSG_FILEWRITE - Filesystem was asked to write to 'c:\program files\steam\steamapps\common\counter-strike global offensive\sdk_content\maps\hollow\csgo.map.de.hollow\map\de_hollow_insurgency.bsp', but we don't own that location. Allowing...
+53 seconds elapsed
